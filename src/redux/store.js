@@ -10,7 +10,7 @@ import {
   PURGE,
   REGISTER,
 } from "redux-persist";
-import contactsReducer from "./contacs/contacts-reducer";
+import contactsReducer from "./contacts/contacts-reducer";
 import logger from "redux-logger";
 
 const contactsPersistConfig = {

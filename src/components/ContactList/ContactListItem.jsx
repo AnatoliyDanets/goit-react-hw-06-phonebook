@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import s from "../ContactList/ContactList.module.css";
-import { deleteContact } from "../../redux/contacs/contacts-actions";
 import { useDispatch } from "react-redux";
+import { deleteContact } from "../../redux/contacts/contacts-actions";
 
 export default function ContactListItem({ id, name, number }) {
   const dispatch = useDispatch();
